@@ -1,0 +1,26 @@
+{
+  "name": "email-template",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leemunroe/grunt-email-design"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-assemble": "^0.4.0",
+    "grunt-aws-s3": "^0.14.2",
+    "grunt-cdn": "^0.6.1",
+    "grunt-cloudfiles": "^0.3.0",
+    "grunt-contrib-imagemin": "^1.0.0",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-litmus": "^0.1.8",
+    "grunt-mailgun": "1.0.1",
+    "grunt-mandrill": "0.0.3",
+    "grunt-premailer": "0.2.13",
+    "grunt-replace": "^0.11.0",
+    "grunt-shell": "^1.1.2",
+    "handlebars": "~4.0.5",
+    "imagemin-mozjpeg": "^5.1.0"
+  }
+}

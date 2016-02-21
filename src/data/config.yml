@@ -1,0 +1,27 @@
+dark_logo_url: 			"http://cdn.jane.com/email/jane-logo-dark.png"
+home_page_url: 			"https://jane.com/"
+customer_support_url: 	"https://support.jane.com"
+seller_support_url:		"https://sellersupport.jane.com/"
+
+current_year:			"2016"
+current_address:		"3401 N. Thanksgiving Way, Suite 300, Lehi, UT 84043"
+
+facebook_header_link: 	"http://vryjn.it/1FjNVcA"
+pinterest_header_link: 	"http://vryjn.it/11PtFRe"
+instagram_header_link: 	"http://vryjn.it/1xUngCo"
+twitter_header_link:	"http://vryjn.it/1v4bzFJ"
+google_header_link: 	"http://vryjn.it/1zl2nx2"
+customer_oneclick_link: "http://m.onelink.me/cc7842ec"
+seller_oneclick_link:	"http://m.onelink.me/3ef947b5"
+welcome_oneclick_link:	"http://m.onelink.me/e631cdfb"
+
+facebook_logo_url: 		"http://cdn.jane.com/content/images/social/icons/icon-facebook.png"
+pinterest_logo_url: 	"http://cdn.jane.com/content/images/social/icons/icon-pinterest.png"
+instagram_logo_url: 	"http://cdn.jane.com/content/images/social/icons/icon-instagram.png"
+twitter_logo_url: 		"http://cdn.jane.com/content/images/social/icons/icon-twitter.png"
+google_logo_url: 	  	"http://cdn.jane.com/content/images/social/icons/icon-google-plus.png"
+app_logo_url: 			  "http://cdn.jane.com/content/images/social/icons/icon-download-app.png"
+
+email_width:          "580px"
+
+jMint:                '#9ae0d6'
