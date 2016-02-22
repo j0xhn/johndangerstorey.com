@@ -14,8 +14,8 @@ module.exports = function(grunt) {
         paths: {
           src:        'src',
           src_img:    'src/img',
-          dist:       'dist',
-          dist_img:   'dist/img'
+          dist:       'dest',
+          dist_img:   'dest/img'
         },
 
         // Takes your scss files and compiles them to css
