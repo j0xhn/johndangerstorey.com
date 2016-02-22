@@ -20,25 +20,25 @@
               New Site Sample
               <img src="img/newDashboard.jpg" class="blog-main-img  img-responsive" alt="blog main image" />
 
-              <h4 class="blog-post-title">My Time as VP of Marketing</h4>  
+              <h4 class="blog-post-title">My Time as VP of Marketing</h4>
 
               <h6 class="blog-post-sub-title">
               I had started a business selling text message packages to restaurants and found my way to Txtwire through my business dealings. Txtwire is a SMS company that sends approx 11-13M text messages monthly, largely through their API. I worked extensively with segmenting and engaging their non-enterprise markets.  Because of the nature of their business I spent a large portion of my time designing in Illustrator, prototyping in InVisionApp, conducting user tests, and improving the principal dashboard's UI.
-              </h6>  
+              </h6>
                 <ul class="list-unstyled  tags  blog-tags">
                   <li><a>Problem:  Customer Service Calls</a></li>
                 </ul>
               <h6 class="blog-post-sub-title">
-              	We were getting a LOT of customer service calls in regards to helping people with the setup of their mCard (a mobile business card product).  We initially started doing a massive re-design of the way people signed up, then decided to test a new form versus putting a tutorial video at the beginning of the process.  The tutorial video won out and we saved lots of time for our developers as well as our customer service reps.  
-              </h6> 
+              	We were getting a LOT of customer service calls in regards to helping people with the setup of their mCard (a mobile business card product).  We initially started doing a massive re-design of the way people signed up, then decided to test a new form versus putting a tutorial video at the beginning of the process.  The tutorial video won out and we saved lots of time for our developers as well as our customer service reps.
+              </h6>
                 <ul  class="list-unstyled  tags  blog-tags">
                   <li><a>Problem: High Bounce Rate</a></li>
                 </ul>
               <h6 class="blog-post-sub-title">
               	We had a super high bounce rate on our landing page.  We came up with a competing design and using google analytics ran A/B split tests.  The page with a video had a much better engagement rate so we started making videos for our different segments.
-              </h6> 
+              </h6>
               <h6 class="blog-post-sub-title">
-              Sadly, they didn't have any developers assigned soley to front-end development and almost all of my initiatives related to implementing dashboard improvements were put on hold to focus on user stories to improve service to their higher revenue customers.  I was still able to provide value by setting up event/goal tracking on our site along with re-marketing campaigns such as AdRoll, but results are not definite.  The designs you see here have not been implemented into production code yet.   
+              Sadly, they didn't have any developers assigned soley to front-end development and almost all of my initiatives related to implementing dashboard improvements were put on hold to focus on user stories to improve service to their higher revenue customers.  I was still able to provide value by setting up event/goal tracking on our site along with re-marketing campaigns such as AdRoll, but results are not definite.  The designs you see here have not been implemented into production code yet.
               <br>
               <br>
               </h6>
