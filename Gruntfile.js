@@ -41,7 +41,6 @@ module.exports = function(grunt) {
             flatten: true
           },
           pages: {
-            options: { ext: ''  },
             src: grunt.option('page')?['<%= paths.src %>/pages/**/'+ grunt.option('page') +'.hbs']:['<%= paths.src %>/pages/**/*.hbs'],
             dest: '<%= paths.dist %>/'
           },
