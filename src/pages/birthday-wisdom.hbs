@@ -1,0 +1,122 @@
+---
+layout: envy.hbs
+---
+<!-- masthead -->
+<div class="jumbotron">
+  <h2 class="jumbotron--title">Birthday Wisdom</h2>
+  <p class="jumbotron--sub-title">Tidbits that made them "one year older and wiser too"</p>
+</div><!-- /masthead -->
+
+< !-- main-content -->
+<div class="container  main-content">
+  <div class="row">
+    <!-- left content -->
+    <div class="col-lg-8  blog">
+      <!-- blog post -->
+      <img src={{primary_image}} class="blog-main-img  img-responsive" alt="blog main image" />
+      <h4 class="blog-post-title">Birthday Wisdom<h4>
+      <h6 class="blog-post-sub-title">I love small nuggets of wisdom, so here are some bit-sized mind melters that people have shared with me over the years.
+        <br>
+        <br>
+        Although I did do the design of the site, I wouldn't necessarily it was one of my "design porfolio" pieces.  I was mainly focused on functionality of adding users, tracking, and displaying their information.
+        <br>
+        <br>
+      </h6>
+
+      <blockquote>
+        "Shows that I can learn new technologies and skills rapidly.  Learned completely new tools and systems with a little in-class instruction, and a whole lot of outside of class experimenting. Loved it. "
+        <small>John D. Storey (me)</small>
+      </blockquote>
+
+      <h6 class="blog-post-sub-title">Libraries/Technologies include Angular, Firebase, jQuery, completely custom CSS and HTML, here is a little sample:</h6>
+
+      <pre>
+        //////VIEW//////
+
+        &lt;!-- TAG BOX--&gt;
+        &lt;div class='tagBox'&gt;
+        &lt;span&gt;Other Tags&nbsp;&lt;/span&gt;&lt;i&gt;(click to vote up)&lt;/i&gt;:&nbsp;
+        &lt;p ng-repeat="tag in selectedPerson.votes | object2Array | orderBy:'value':true" ng-click='upVote(tag.tagName, selectedPerson, userID)'&gt;
+        {{ tag.tagName }},&nbsp;
+        &lt;/p&gt;
+        &lt;!-- INPUT TAG --&gt;
+        &lt;form ng-submit="tagCreate(tagFromView, selectedPerson, userID)" id='tagCreateForm'&gt;
+        &lt;input class='tagName' type='text' name='tagFromView' placeholder='Create new tag' ng-model="tagFromView"&gt;
+        &lt;button type='submit'class='btn btn-xs tagBtns' id='submitBtnMinimal'&gt;create&lt;/button&gt;
+        &lt;/form&gt;
+        &lt;/div&gt;
+
+        //////CONTROLLER//////
+
+        $scope.upVote = function (tagName, selectedPerson, userID, $filter) {
+          console.log('You clicked for up vote');
+          if (userID){
+            if(selectedPerson.votes[tagName][userID]){
+              // tell them they can't vote
+              if ( selectedPerson.votes[tagName][userID].type === 1){
+                alert('you already voted on this');
+              } else {
+                selectedPerson.votes[tagName][userID].type=1;
+                selectedPerson.votes[tagName].value++;
+              }
+            } else {
+              //create the userId for this tagName
+              selectedPerson.lastVote = new Date();
+              selectedPerson.votes[tagName][userID] = {type:1};
+              selectedPerson.votes[tagName].value++;
+            }
+            //rewards user for engagment
+            people[userID].overallVotes.value++;
+          } else {
+            peopleService.loginPrompt();
+          }
+        }
+      </pre>
+
+      <p>
+        Basically I learned alot about how to pass parameters, how to interact with Firebase, and how to manipulate values inside of javascript objects.
+      </p>
+
+    </div><!-- /left content -->
+
+    <!-- right content -->
+    <div class="col-lg-4  right-hand-bar">
+
+      <hr class="hidden-lg">
+
+      <h5 class='no-top-margin'>Featurettes</h5>
+
+      <ul class="list-unstyled  tags  category-tags">
+        <li><a>Coded while at Dev Mountain</a></li>
+        <li><a>Facebook Login</a></li>
+        <li><a>Editable settings for Bio, Website, etc..</a></li>
+        <li><a>Custom Filters for AngularJS</a></li>
+        <li><a>3 way binding with Firebase</a></li>
+        <li><a>Custom CSS animations with Key Frames</a></li>
+        <li><a>Designed Logo :)</a></li>
+      </ul>
+
+    </div><!-- /right content -->
+
+  </div>
+
+</div><!-- /main-content -->
+
+Birthday Wisdom
+
+The saying goes “one year older and wiser too”. Well, this is my collection of the things that have made people wiser over the course of their most recent year of life.
+
+“Make this the year you stop doing stuff you don’t want to do”
+Craig Scribner, Older
+
+“Be more grateful for where you are in life, as well as who you have in your life”
+Colter Wilson, 27
+
+“Always sign a contract, and sign it as early as possible”
+JD Tueller, practically 30
+
+“If you want to see the hand of God, look. If you want to hear the voice of God, listen. If you want to feel the love of God, serve.” | Zach Oates, 28
+
+“Be useful, not innovative” | Jeff Shwarting, 27
+
+“Enjoy the moments in life that others only DREAM of having. Some people are blind and can’t even see the sky. | Jane Groom, 18
